@@ -25,8 +25,14 @@ volumes:
     matchLabels: false
   
 properties:
-    SLACK_API_URL:
-      vault: SLACK_API_URL
+    #SLACK_API_URL:
+     # vault: SLACK_API_URL
+    SLACK_API_URL_ONE:
+      vault: SLACK_API_URL_ONE
+    SLACK_API_URL_TWO:
+      vault: SLACK_API_URL_TWO
+    CHANNEL_1: appz-delivery 
+    CHANNEL_2: tradeideas-alerts
     SLACK_CHANNEL: notification-openebs
     CLUSTER_NAME: Trade-Ideas-PRE-PROD
     revision : 2
